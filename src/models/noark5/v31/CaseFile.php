@@ -23,7 +23,7 @@ class CaseFile extends File
 	protected $caseDate;
 
 	/** M305 - administrativEnhet (xs:string) */
-	/** @Column(type="integer", name="administrative_unit", nullable=true) **/
+	/** @Column(type="string", name="administrative_unit", nullable=true) **/
 	protected $administrativeUnit;
 
 	/** M306 - saksansvarlig (xs:string) */
