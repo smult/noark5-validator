@@ -31,7 +31,7 @@ class File
      * M003 - mappeID (xs:string)
      */
     /**
-     * @Column(type="integer", name="file_id", nullable=true) *
+     * @Column(type="string", name="file_id", nullable=true) *
      */
     protected $fileId;
 
